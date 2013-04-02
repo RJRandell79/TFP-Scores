@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC75EF7B15DE1B790025DA02 /* abstractwaves.png in Resources */ = {isa = PBXBuildFile; fileRef = EC75EF7A15DE1B790025DA02 /* abstractwaves.png */; };
+		EC75EF8215DE1E280025DA02 /* tfp_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC75EF8115DE1E280025DA02 /* tfp_bar.png */; };
+		ECEC479715DD7F8900A634B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC479615DD7F8900A634B5 /* UIKit.framework */; };
+		ECEC479915DD7F8900A634B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC479815DD7F8900A634B5 /* Foundation.framework */; };
+		ECEC479B15DD7F8900A634B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC479A15DD7F8900A634B5 /* CoreGraphics.framework */; };
+		ECEC47A115DD7F8900A634B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECEC479F15DD7F8900A634B5 /* InfoPlist.strings */; };
+		ECEC47A315DD7F8900A634B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47A215DD7F8900A634B5 /* main.m */; };
+		ECEC47A715DD7F8900A634B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47A615DD7F8900A634B5 /* AppDelegate.m */; };
+		ECEC47AA15DD7F8900A634B5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47A815DD7F8900A634B5 /* MainStoryboard.storyboard */; };
+		ECEC47AD15DD7F8900A634B5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47AC15DD7F8900A634B5 /* MasterViewController.m */; };
+		ECEC47B015DD7F8900A634B5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47AF15DD7F8900A634B5 /* DetailViewController.m */; };
+		ECEC47BC15DD80B100A634B5 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47BB15DD80B100A634B5 /* Parser.m */; };
+		ECEC47BF15DD812200A634B5 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47BE15DD812200A634B5 /* List.m */; };
+		ECEC47C615DD8E8000A634B5 /* ScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC47C515DD8E8000A634B5 /* ScoreCell.m */; };
+		ECEC47E615DD956100A634B5 /* arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47CF15DD956000A634B5 /* arsenal.png */; };
+		ECEC47E715DD956100A634B5 /* astonvilla.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D015DD956000A634B5 /* astonvilla.png */; };
+		ECEC47E815DD956100A634B5 /* blackburnrovers.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D115DD956000A634B5 /* blackburnrovers.png */; };
+		ECEC47E915DD956100A634B5 /* boltonwanderers.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D215DD956000A634B5 /* boltonwanderers.png */; };
+		ECEC47EA15DD956100A634B5 /* chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D315DD956000A634B5 /* chelsea.png */; };
+		ECEC47EB15DD956100A634B5 /* everton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D415DD956000A634B5 /* everton.png */; };
+		ECEC47EC15DD956100A634B5 /* fulham.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D515DD956000A634B5 /* fulham.png */; };
+		ECEC47ED15DD956100A634B5 /* liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D615DD956000A634B5 /* liverpool.png */; };
+		ECEC47EE15DD956100A634B5 /* manchestercity.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D715DD956000A634B5 /* manchestercity.png */; };
+		ECEC47EF15DD956100A634B5 /* manchesterunited.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D815DD956100A634B5 /* manchesterunited.png */; };
+		ECEC47F015DD956100A634B5 /* newcastleunited.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47D915DD956100A634B5 /* newcastleunited.png */; };
+		ECEC47F115DD956100A634B5 /* norwichcity.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DA15DD956100A634B5 /* norwichcity.png */; };
+		ECEC47F215DD956100A634B5 /* queensparkrangers.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DB15DD956100A634B5 /* queensparkrangers.png */; };
+		ECEC47F315DD956100A634B5 /* reading.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DC15DD956100A634B5 /* reading.png */; };
+		ECEC47F415DD956100A634B5 /* southampton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DD15DD956100A634B5 /* southampton.png */; };
+		ECEC47F515DD956100A634B5 /* stokecity.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DE15DD956100A634B5 /* stokecity.png */; };
+		ECEC47F615DD956100A634B5 /* sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47DF15DD956100A634B5 /* sunderland.png */; };
+		ECEC47F715DD956100A634B5 /* swanseacity.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E015DD956100A634B5 /* swanseacity.png */; };
+		ECEC47F815DD956100A634B5 /* tottenhamhotspur.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E115DD956100A634B5 /* tottenhamhotspur.png */; };
+		ECEC47F915DD956100A634B5 /* westbromwichalbion.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E215DD956100A634B5 /* westbromwichalbion.png */; };
+		ECEC47FA15DD956100A634B5 /* westhamunited.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E315DD956100A634B5 /* westhamunited.png */; };
+		ECEC47FB15DD956100A634B5 /* wiganathletic.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E415DD956100A634B5 /* wiganathletic.png */; };
+		ECEC47FC15DD956100A634B5 /* wolves.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47E515DD956100A634B5 /* wolves.png */; };
+		ECEC47FF15DD974200A634B5 /* tfpicon_57px.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC47FE15DD974200A634B5 /* tfpicon_57px.png */; };
+		ECEC480115DD974600A634B5 /* tfpicon_114px.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEC480015DD974600A634B5 /* tfpicon_114px.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC75EF7A15DE1B790025DA02 /* abstractwaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractwaves.png; sourceTree = "<group>"; };
+		EC75EF8115DE1E280025DA02 /* tfp_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tfp_bar.png; sourceTree = "<group>"; };
+		ECEC479215DD7F8900A634B5 /* TFP Scores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFP Scores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC479615DD7F8900A634B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECEC479815DD7F8900A634B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECEC479A15DD7F8900A634B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECEC479E15DD7F8900A634B5 /* TFP Scores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFP Scores-Info.plist"; sourceTree = "<group>"; };
+		ECEC47A015DD7F8900A634B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECEC47A215DD7F8900A634B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECEC47A415DD7F8900A634B5 /* TFP Scores-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFP Scores-Prefix.pch"; sourceTree = "<group>"; };
+		ECEC47A515DD7F8900A634B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECEC47A615DD7F8900A634B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECEC47A915DD7F8900A634B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ECEC47AB15DD7F8900A634B5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ECEC47AC15DD7F8900A634B5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ECEC47AE15DD7F8900A634B5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ECEC47AF15DD7F8900A634B5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ECEC47BA15DD80B100A634B5 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		ECEC47BB15DD80B100A634B5 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		ECEC47BD15DD812200A634B5 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		ECEC47BE15DD812200A634B5 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		ECEC47C415DD8E8000A634B5 /* ScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCell.h; sourceTree = "<group>"; };
+		ECEC47C515DD8E8000A634B5 /* ScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCell.m; sourceTree = "<group>"; };
+		ECEC47CF15DD956000A634B5 /* arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arsenal.png; sourceTree = "<group>"; };
+		ECEC47D015DD956000A634B5 /* astonvilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astonvilla.png; sourceTree = "<group>"; };
+		ECEC47D115DD956000A634B5 /* blackburnrovers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackburnrovers.png; sourceTree = "<group>"; };
+		ECEC47D215DD956000A634B5 /* boltonwanderers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boltonwanderers.png; sourceTree = "<group>"; };
+		ECEC47D315DD956000A634B5 /* chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chelsea.png; sourceTree = "<group>"; };
+		ECEC47D415DD956000A634B5 /* everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = everton.png; sourceTree = "<group>"; };
+		ECEC47D515DD956000A634B5 /* fulham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fulham.png; sourceTree = "<group>"; };
+		ECEC47D615DD956000A634B5 /* liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liverpool.png; sourceTree = "<group>"; };
+		ECEC47D715DD956000A634B5 /* manchestercity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manchestercity.png; sourceTree = "<group>"; };
+		ECEC47D815DD956100A634B5 /* manchesterunited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manchesterunited.png; sourceTree = "<group>"; };
+		ECEC47D915DD956100A634B5 /* newcastleunited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcastleunited.png; sourceTree = "<group>"; };
+		ECEC47DA15DD956100A634B5 /* norwichcity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = norwichcity.png; sourceTree = "<group>"; };
+		ECEC47DB15DD956100A634B5 /* queensparkrangers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queensparkrangers.png; sourceTree = "<group>"; };
+		ECEC47DC15DD956100A634B5 /* reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reading.png; sourceTree = "<group>"; };
+		ECEC47DD15DD956100A634B5 /* southampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southampton.png; sourceTree = "<group>"; };
+		ECEC47DE15DD956100A634B5 /* stokecity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stokecity.png; sourceTree = "<group>"; };
+		ECEC47DF15DD956100A634B5 /* sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunderland.png; sourceTree = "<group>"; };
+		ECEC47E015DD956100A634B5 /* swanseacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swanseacity.png; sourceTree = "<group>"; };
+		ECEC47E115DD956100A634B5 /* tottenhamhotspur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tottenhamhotspur.png; sourceTree = "<group>"; };
+		ECEC47E215DD956100A634B5 /* westbromwichalbion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = westbromwichalbion.png; sourceTree = "<group>"; };
+		ECEC47E315DD956100A634B5 /* westhamunited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = westhamunited.png; sourceTree = "<group>"; };
+		ECEC47E415DD956100A634B5 /* wiganathletic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiganathletic.png; sourceTree = "<group>"; };
+		ECEC47E515DD956100A634B5 /* wolves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolves.png; sourceTree = "<group>"; };
+		ECEC47FE15DD974200A634B5 /* tfpicon_57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tfpicon_57px.png; sourceTree = "<group>"; };
+		ECEC480015DD974600A634B5 /* tfpicon_114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tfpicon_114px.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEC478F15DD7F8900A634B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC479715DD7F8900A634B5 /* UIKit.framework in Frameworks */,
+				ECEC479915DD7F8900A634B5 /* Foundation.framework in Frameworks */,
+				ECEC479B15DD7F8900A634B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC75EF7D15DE1B7C0025DA02 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC75EF8115DE1E280025DA02 /* tfp_bar.png */,
+				EC75EF7A15DE1B790025DA02 /* abstractwaves.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		ECEC478715DD7F8900A634B5 = {
+			isa = PBXGroup;
+			children = (
+				ECEC480015DD974600A634B5 /* tfpicon_114px.png */,
+				ECEC47FE15DD974200A634B5 /* tfpicon_57px.png */,
+				ECEC479C15DD7F8900A634B5 /* TFP Scores */,
+				ECEC479515DD7F8900A634B5 /* Frameworks */,
+				ECEC479315DD7F8900A634B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEC479315DD7F8900A634B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC479215DD7F8900A634B5 /* TFP Scores.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEC479515DD7F8900A634B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC479615DD7F8900A634B5 /* UIKit.framework */,
+				ECEC479815DD7F8900A634B5 /* Foundation.framework */,
+				ECEC479A15DD7F8900A634B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECEC479C15DD7F8900A634B5 /* TFP Scores */ = {
+			isa = PBXGroup;
+			children = (
+				EC75EF7D15DE1B7C0025DA02 /* images */,
+				ECEC47FD15DD956900A634B5 /* badges */,
+				ECEC47A515DD7F8900A634B5 /* AppDelegate.h */,
+				ECEC47A615DD7F8900A634B5 /* AppDelegate.m */,
+				ECEC47A815DD7F8900A634B5 /* MainStoryboard.storyboard */,
+				ECEC47AB15DD7F8900A634B5 /* MasterViewController.h */,
+				ECEC47AC15DD7F8900A634B5 /* MasterViewController.m */,
+				ECEC47AE15DD7F8900A634B5 /* DetailViewController.h */,
+				ECEC47AF15DD7F8900A634B5 /* DetailViewController.m */,
+				ECEC479D15DD7F8900A634B5 /* Supporting Files */,
+				ECEC47BA15DD80B100A634B5 /* Parser.h */,
+				ECEC47BB15DD80B100A634B5 /* Parser.m */,
+				ECEC47BD15DD812200A634B5 /* List.h */,
+				ECEC47BE15DD812200A634B5 /* List.m */,
+				ECEC47C415DD8E8000A634B5 /* ScoreCell.h */,
+				ECEC47C515DD8E8000A634B5 /* ScoreCell.m */,
+			);
+			path = "TFP Scores";
+			sourceTree = "<group>";
+		};
+		ECEC479D15DD7F8900A634B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC479E15DD7F8900A634B5 /* TFP Scores-Info.plist */,
+				ECEC479F15DD7F8900A634B5 /* InfoPlist.strings */,
+				ECEC47A215DD7F8900A634B5 /* main.m */,
+				ECEC47A415DD7F8900A634B5 /* TFP Scores-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECEC47FD15DD956900A634B5 /* badges */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC47CF15DD956000A634B5 /* arsenal.png */,
+				ECEC47D015DD956000A634B5 /* astonvilla.png */,
+				ECEC47D115DD956000A634B5 /* blackburnrovers.png */,
+				ECEC47D215DD956000A634B5 /* boltonwanderers.png */,
+				ECEC47D315DD956000A634B5 /* chelsea.png */,
+				ECEC47D415DD956000A634B5 /* everton.png */,
+				ECEC47D515DD956000A634B5 /* fulham.png */,
+				ECEC47D615DD956000A634B5 /* liverpool.png */,
+				ECEC47D715DD956000A634B5 /* manchestercity.png */,
+				ECEC47D815DD956100A634B5 /* manchesterunited.png */,
+				ECEC47D915DD956100A634B5 /* newcastleunited.png */,
+				ECEC47DA15DD956100A634B5 /* norwichcity.png */,
+				ECEC47DB15DD956100A634B5 /* queensparkrangers.png */,
+				ECEC47DC15DD956100A634B5 /* reading.png */,
+				ECEC47DD15DD956100A634B5 /* southampton.png */,
+				ECEC47DE15DD956100A634B5 /* stokecity.png */,
+				ECEC47DF15DD956100A634B5 /* sunderland.png */,
+				ECEC47E015DD956100A634B5 /* swanseacity.png */,
+				ECEC47E115DD956100A634B5 /* tottenhamhotspur.png */,
+				ECEC47E215DD956100A634B5 /* westbromwichalbion.png */,
+				ECEC47E315DD956100A634B5 /* westhamunited.png */,
+				ECEC47E415DD956100A634B5 /* wiganathletic.png */,
+				ECEC47E515DD956100A634B5 /* wolves.png */,
+			);
+			name = badges;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEC479115DD7F8900A634B5 /* TFP Scores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC47B315DD7F8900A634B5 /* Build configuration list for PBXNativeTarget "TFP Scores" */;
+			buildPhases = (
+				ECEC478E15DD7F8900A634B5 /* Sources */,
+				ECEC478F15DD7F8900A634B5 /* Frameworks */,
+				ECEC479015DD7F8900A634B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TFP Scores";
+			productName = "TFP Scores";
+			productReference = ECEC479215DD7F8900A634B5 /* TFP Scores.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEC478915DD7F8900A634B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ECEC478C15DD7F8900A634B5 /* Build configuration list for PBXProject "TFP Scores" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECEC478715DD7F8900A634B5;
+			productRefGroup = ECEC479315DD7F8900A634B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEC479115DD7F8900A634B5 /* TFP Scores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEC479015DD7F8900A634B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC47A115DD7F8900A634B5 /* InfoPlist.strings in Resources */,
+				ECEC47AA15DD7F8900A634B5 /* MainStoryboard.storyboard in Resources */,
+				ECEC47E615DD956100A634B5 /* arsenal.png in Resources */,
+				ECEC47E715DD956100A634B5 /* astonvilla.png in Resources */,
+				ECEC47E815DD956100A634B5 /* blackburnrovers.png in Resources */,
+				ECEC47E915DD956100A634B5 /* boltonwanderers.png in Resources */,
+				ECEC47EA15DD956100A634B5 /* chelsea.png in Resources */,
+				ECEC47EB15DD956100A634B5 /* everton.png in Resources */,
+				ECEC47EC15DD956100A634B5 /* fulham.png in Resources */,
+				ECEC47ED15DD956100A634B5 /* liverpool.png in Resources */,
+				ECEC47EE15DD956100A634B5 /* manchestercity.png in Resources */,
+				ECEC47EF15DD956100A634B5 /* manchesterunited.png in Resources */,
+				ECEC47F015DD956100A634B5 /* newcastleunited.png in Resources */,
+				ECEC47F115DD956100A634B5 /* norwichcity.png in Resources */,
+				ECEC47F215DD956100A634B5 /* queensparkrangers.png in Resources */,
+				ECEC47F315DD956100A634B5 /* reading.png in Resources */,
+				ECEC47F415DD956100A634B5 /* southampton.png in Resources */,
+				ECEC47F515DD956100A634B5 /* stokecity.png in Resources */,
+				ECEC47F615DD956100A634B5 /* sunderland.png in Resources */,
+				ECEC47F715DD956100A634B5 /* swanseacity.png in Resources */,
+				ECEC47F815DD956100A634B5 /* tottenhamhotspur.png in Resources */,
+				ECEC47F915DD956100A634B5 /* westbromwichalbion.png in Resources */,
+				ECEC47FA15DD956100A634B5 /* westhamunited.png in Resources */,
+				ECEC47FB15DD956100A634B5 /* wiganathletic.png in Resources */,
+				ECEC47FC15DD956100A634B5 /* wolves.png in Resources */,
+				ECEC47FF15DD974200A634B5 /* tfpicon_57px.png in Resources */,
+				ECEC480115DD974600A634B5 /* tfpicon_114px.png in Resources */,
+				EC75EF7B15DE1B790025DA02 /* abstractwaves.png in Resources */,
+				EC75EF8215DE1E280025DA02 /* tfp_bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEC478E15DD7F8900A634B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC47A315DD7F8900A634B5 /* main.m in Sources */,
+				ECEC47A715DD7F8900A634B5 /* AppDelegate.m in Sources */,
+				ECEC47AD15DD7F8900A634B5 /* MasterViewController.m in Sources */,
+				ECEC47B015DD7F8900A634B5 /* DetailViewController.m in Sources */,
+				ECEC47BC15DD80B100A634B5 /* Parser.m in Sources */,
+				ECEC47BF15DD812200A634B5 /* List.m in Sources */,
+				ECEC47C615DD8E8000A634B5 /* ScoreCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECEC479F15DD7F8900A634B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC47A015DD7F8900A634B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECEC47A815DD7F8900A634B5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC47A915DD7F8900A634B5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEC47B115DD7F8900A634B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECEC47B215DD7F8900A634B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEC47B415DD7F8900A634B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFP Scores/TFP Scores-Prefix.pch";
+				INFOPLIST_FILE = "TFP Scores/TFP Scores-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECEC47B515DD7F8900A634B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFP Scores/TFP Scores-Prefix.pch";
+				INFOPLIST_FILE = "TFP Scores/TFP Scores-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEC478C15DD7F8900A634B5 /* Build configuration list for PBXProject "TFP Scores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC47B115DD7F8900A634B5 /* Debug */,
+				ECEC47B215DD7F8900A634B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC47B315DD7F8900A634B5 /* Build configuration list for PBXNativeTarget "TFP Scores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC47B415DD7F8900A634B5 /* Debug */,
+				ECEC47B515DD7F8900A634B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEC478915DD7F8900A634B5 /* Project object */;
+}
