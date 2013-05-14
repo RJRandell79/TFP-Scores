@@ -23,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSURL *url = [[NSURL alloc] initWithString:@"http://www.apsgroup-studio.co.uk/testphp/standing_v3.xml"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://www.rjrstudios.co.uk/webpages/standing_v3.xml"];
     NSData *data = [[NSData alloc] initWithContentsOfURL:url];
     
     NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:data];
